@@ -1,0 +1,179 @@
+/*sub-news-post.css*/
+@charset "utf-8";
+
+/*header.css | footer.css*/
+@import url(header.css);
+@import url(footer.css);
+
+/*구글 웹 폰트*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+main {
+    margin-top: 120px;
+    height: 650px;
+    background: url(../img/news-post/thumb.jpg)no-repeat center/cover;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.main-wrap {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+}
+
+main .main-txt {
+    text-align: center;
+    /*transform: translateY(-40%);*/
+}
+
+main .main-txt h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+main .main-txt p {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.mbtn {
+    width: 334px;
+    margin: 50px auto 0;
+    /*outline: 2px solid red;*/
+}
+
+.mbtn > ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.mbtn > ul > li {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #fff;
+    line-height: 40px;
+    float: left;
+    margin-left: 30px;
+}
+
+.mbtn > ul > li > a:hover {
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+}
+
+.mbtn > ul > li:first-child {
+    margin-left: 0;
+}
+
+.mbtn > ul > li > a {
+    color: #fff;
+}
+
+/**/
+
+.contents-wrap {
+    width: 80%;
+    margin: 0 auto;
+    /*    position: relative;*/
+}
+
+.contents-wrap:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.contents-box {
+    width: 33.33%;
+    float: left;
+    margin-bottom: 100px;
+    /*outline: 2px solid red;*/
+    display: none;
+    position: relative;
+}
+
+.inner-contents {
+    width: 380px;
+    margin: 0 auto;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 3px 3px 5px #999;
+    position: relative;
+    /* outline: 2px solid blue;*/
+}
+
+.contents-img {
+    width: 380px;
+    height: 380px;
+    overflow: hidden;
+}
+
+.contents-img img {
+    width: 100%;
+}
+
+.inner-contents a {
+    position: relative;
+}
+
+.inner-contents a span {
+    ;
+    position: absolute;
+    bottom: 80px;
+    left: 26px;
+    border-radius: 50%;
+   /* outline: 2px solid red;*/
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.inner-contents a span.music {
+    background-color: #A3DBFA;
+}
+
+.inner-contents a span.notice {
+    background-color: #FA7F91;
+}
+
+.inner-contents a span.guide {
+     background-color: #F8FABF;
+}
+
+.inner-contents a span.post {
+    background-color: sandybrown;
+}
+.inner-contents p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120px;
+    color: #333;
+}
+
+#more {
+    width: 250px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background-color: #09385F;
+    /*outline: 2px solid red;*/
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+#more:hover {
+    font-weight: bold;
+}

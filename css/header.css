@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+/*header*/
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: #f8f8ed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    border-bottom: 1px solid #777;
+}
+
+header .lnb {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+header .lnb h1 {
+    width: 70px;
+    height: 100%;
+    /*float: left;*/
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+header .lnb h1 img {
+    height: 100px;
+}
+
+header .lnb .join {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+header .lnb .join ul {
+    position: relative;
+}
+
+header .lnb .join ul li {
+    float: left;
+    margin-left: 10px;
+}
+
+header .lnb .join ul li a {
+    font-size: 15px;
+    color: #555;
+}
+
+header .lnb .join ul li a:hover {
+    font-weight: bold;
+    color: #09385F;
+}
+
+header .lnb nav {
+    width: 85%;
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+header .lnb nav ul li {
+    width: 16.66666666666667%;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header .lnb nav ul li:hover {
+    color: #09385F;
+    font-weight: bold;
+}
+
+header .lnb nav ul li:last-child {
+    text-align: right;
+    /*outline: 2px solid red;*/
+}
+
+header .lnb nav ul li:last-child::after {
+    content: "";
+    display: block;
+    height: 23px;
+    /*width: 83.5%;*/
+    border-right: 1px solid #555;
+    position: absolute;
+    top: 20px;
+    right: 16%;
+    /*outline: 2px solid red;*/
+}
+
+header .lnb nav ul li a {
+    /*display: block;*/
+    color: #333;
+}
+
+header .submenu {
+    width: 100%;
+    height: 250px;
+    background-color: #f8f8f8;
+    position: absolute;
+    top: 120px;
+    /*outline: 2px solid red;*/
+}
+
+header .submenu .submenu-wrap {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+header .submenu .submenu-wrap .smenu-wrap {
+    width: 85%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+
+.smenu-wrap .smenu {
+    width: 16.66666666666667%;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+}
+
+.smenu-wrap .smenu:last-child {
+    width: 9%;
+    margin-left: 7.66666666666667%
+}
+
+.smenu-wrap .smenu:last-child::after {
+    content: "";
+    display: block;
+    height: 200px;
+    border-right: 1px solid #555;
+    position: absolute;
+    top: 25px;
+    right: 16%;
+}
+
+.smenu-wrap .smenu li a {
+    display: block;
+    color: #333;
+}
+
+.smenu-wrap .smenu li a:hover {
+    color: #09385F;
+    font-weight: bold;
+    text-decoration: underline;
+}

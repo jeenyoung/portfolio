@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+/*footer*/
+
+footer {
+    width: 100%;
+    height: 240px;
+    background-color:#f8f8f8;
+    padding: 20px 0;
+    border-top: 1px solid #555;
+    font-size: 14px;
+    color: #07375e;
+    font-weight: 700;
+}
+
+.footer-wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-1 {
+    width: 50%;
+    float: left;
+}
+
+.footer-1-top {
+    height: 100px;
+    border-bottom: 1px solid #555;
+    margin-bottom: 20px;
+}
+
+.footer-1-top .f-logo {
+    width: 70px;
+    float: left;
+}
+
+.footer-1-top p {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 75px;
+    float: left;
+    margin-left: 50px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.footer-1-top .f-ico {
+    width: 24px;
+    line-height: 70px;
+    margin-left: 20px;
+    margin-top: 23px;
+    float: right;
+    margin-right: 50px;
+}
+
+.footer-1 .footer-box {
+    width: 33.33%;
+    float: left;
+}
+
+.footer-2 .footer-box {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.footer-box > p > span {
+    line-height: 30px;
+    color: #B81B25;
+    border: 1px solid #B81B25;
+    padding: 2px 7px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.footer-2 {
+    width: 40%;
+    float: right;
+    height: 140px;
+    line-height: 22px
+}
+
+.footer-2 .footer-box {
+    margin-top: 10px;
+}
+
+.f-ico {
+    width: 15px;
+    position: absolute;
+    bottom:3px;
+    right: 250px;
+}
+
+.terms {
+    float: left;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-left: 95px;
+}

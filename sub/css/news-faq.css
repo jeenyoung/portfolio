@@ -1,0 +1,183 @@
+/*sub-news-post.css*/
+@charset "utf-8";
+
+/*header.css | footer.css*/
+@import url(header.css);
+@import url(footer.css);
+
+/*구글 웹 폰트*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+main {
+    margin-top: 120px;
+    height: 650px;
+    background: url(../img/news-faq/thumb.jpg)no-repeat center/cover;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.main-wrap {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+}
+
+main .main-txt {
+    text-align: center;
+    /*transform: translateY(-40%);*/
+}
+
+main .main-txt h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+main .main-txt p {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.mbtn {
+    width: 334px;
+    margin: 50px auto 0;
+    /*outline: 2px solid red;*/
+}
+
+.mbtn > ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.mbtn > ul > li {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #fff;
+    line-height: 40px;
+    float: left;
+    margin-left: 30px;
+}
+
+.mbtn > ul > li > a:hover {
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+}
+
+.mbtn > ul > li:first-child {
+    margin-left: 0;
+}
+
+.mbtn > ul > li > a {
+    color: #fff;
+}
+
+/**/
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+section .contents {
+    width: 100%;
+    /*background-color: yellowgreen;*/
+   
+}
+
+section .contents > ul {
+    width: 100%;
+    /*line-height: 40px;*/
+     border-bottom: 1px solid #333;
+    background-color: #f8f8f8;
+}
+
+section .contents > ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section .contents > ul > li {
+    float: left;
+    padding: 10px 0;
+}
+
+section .contents > ul > li:first-child {
+    width: 20%;
+    text-align: center;
+    font-weight: 600;
+}
+
+section .contents > ul > li:nth-child(2){
+    width: 80%;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+/*section .contents > ul > li:last-child {
+    padding: 0;
+}*/
+
+.faq_title {
+    /* width: 100%;*/
+    background-color: #f8f8f8;
+    /*height: 40px;*/
+    line-height: 50px;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    /*margin-bottom: 20px;*/
+    /*position: relative;*/
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 10px;
+}
+
+.faq_title li.sub {
+    line-height: 50px;
+}
+
+.faq {
+    line-height: 60px;
+    position: relative;
+    
+}
+
+.faq .btn {
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 20px;
+    height: 60px;
+    cursor: pointer;
+    /*transform: rotate(45deg);*/
+    /*outline: 2px solid red;*/
+    position: absolute;
+    right: 20px;
+}
+
+.faq .on {
+     transform: rotate(45deg);
+    transition: all .5s;
+}
+
+.faq .btn img {
+    width: 20px;
+    height: 20px;
+    color: #555;
+}
+
+.answer {
+    display: none;
+}

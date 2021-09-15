@@ -1,0 +1,112 @@
+/*sub-coffeeclub.css*/
+@charset "utf-8";
+
+/*header.css | footer.css*/
+@import url(header.css);
+@import url(footer.css);
+
+/*구글 웹 폰트*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+main {
+    margin-top: 120px;
+    height: 650px;
+    background: url(../img/coffeeclub/coffee-club-thumb.jpg) no-repeat top/cover;
+}
+
+main .main-txt {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    /*transform: translateY(-40%);*/
+}
+
+main .main-txt h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+main .main-txt p {
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+/*.contents {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contents-txt {
+    width: 100%;
+    position: absolute;
+    top:100px;
+}
+
+.contents h2 {
+    display: block;
+    background-color: #07375e;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 600;
+}*/
+
+.contents {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.contents-box {
+    margin-bottom: 100px;
+    opacity: 0;
+    margin-top: 200px;
+}
+
+/*.contents-box.on {
+    margin-top: 0;
+    opacity: 1;
+    transition: all 2s;
+}*/
+
+.contents h2 {
+    display: block;
+    background-color: #07375e;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 600;
+}
+
+.contents-box:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.box {
+    width: 50%;
+    float: left;
+}
+
+.box-img {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.box p {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.box p span {
+    font-weight: 600;
+    line-height: 2rem;
+}

@@ -1,0 +1,124 @@
+/*sub-map.css*/
+@charset "utf-8";
+
+/*header.css | footer.css*/
+@import url(header.css);
+@import url(footer.css);
+
+/*구글 웹 폰트*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+main {
+    margin-top: 120px;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background: url(../img/map/map-thumb.jpg) no-repeat center/cover;
+    color: #fff;
+}
+
+.main-wrap {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+}
+
+main .main-txt {
+    text-align: center;
+    /*transform: translateY(-40%);*/
+}
+
+main .main-txt h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+main .main-txt p {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.mbtn {
+    position: absolute;
+    top: 265px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 880px;
+    /*margin: 50px auto 0;*/
+    /*outline: 2px solid red;*/
+}
+
+.mbtn > ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.mbtn > ul > li {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #fff;
+    line-height: 40px;
+    float: left;
+    margin-left: 30px;
+}
+
+.mbtn > ul > li > a:hover {
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+}
+
+.mbtn > ul > li:first-child {
+    margin-left: 0;
+}
+
+.mbtn > ul > li > a {
+    color: #fff;
+}
+
+/**/
+
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.m-img {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.m-img>img {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.m-txt-wrap {
+    margin-top: 100px;
+
+}
+
+.m-txt {
+    width: 25%;
+    float: left;
+    margin: 0 auto;
+    /*outline: 2px solid blue;*/
+}
+
+.m-txt-wrap > .m-txt > p {
+    width: 300px;
+    margin: 0 auto;
+    color: #07375e;
+    font-weight: 600;
+    margin-bottom: 100px;
+    /*outline: 2px solid red;*/
+}

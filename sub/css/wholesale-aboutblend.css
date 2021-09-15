@@ -1,0 +1,128 @@
+/*sub-wholesale-aboutblend.css*/
+@charset "utf-8";
+
+/*header.css | footer.css*/
+@import url(header.css);
+@import url(footer.css);
+
+/*구글 웹 폰트*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+main {
+    margin-top: 120px;
+    height: 650px;
+    background: url(../img/wholesale-aboutblend/thumb.jpg) no-repeat center/cover;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.main-wrap {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+}
+
+main .main-txt {
+    text-align: center;
+    /*transform: translateY(-40%);*/
+}
+
+main .main-txt h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+main .main-txt p {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.mbtn {
+    width: 517px;
+    margin: 50px auto 0;
+    /*outline: 2px solid red;*/
+}
+
+.mbtn > ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.mbtn > ul > li {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #fff;
+    line-height: 40px;
+    float: left;
+    margin-left: 30px;
+}
+
+.mbtn > ul > li > a:hover {
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+}
+
+.mbtn > ul > li:first-child {
+    margin-left: 0;
+}
+
+.mbtn > ul > li > a {
+    color: #fff;
+}
+
+/**/
+
+.content {
+    width: 80%;
+    margin: 100px auto 100px;
+    opacity: 0;
+    transition: all 2s;
+}
+
+.content.on {
+    margin-top: 0;
+    opacity: 1;
+}
+
+.content:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.con1, .con2, con3 {
+    width: 33.33%;
+    float: left;
+}
+
+
+.con1, .con3 {
+    text-align: center;
+}
+
+.con1 img {
+    width: 50%;
+}
+
+.con2 img {
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.con2 p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #07375e;
+}
+
+.con3 img {
+    width: 30%;
+    margin-top: 20px;
+}
+
